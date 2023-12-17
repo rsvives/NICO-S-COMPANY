@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+#logo {
+    width: 64px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.izquierda {
+    display: flex;
+    align-items: center;
+    gap: 24px
+}
+
+.menu nav ul {
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    color: #e8e9e9;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 12px;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    padding: 12px;
+    color: rgb(0, 12, 60);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-primary {
+    color: #e8e9e9;
+    background-color: rgb(0, 0, 0.2);
+    border: 2px solid rgb(0, 0, 0.2);
+
+}
+
+.button-primary-outline {
+    color: rgb(0, 0, 0.2);
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0.2);
+}
+
+.derecha {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hamburguesa {
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0.2);
+    border-radius: 4px;
+    display: flex;
+}
+
+.hamburguesa img {
+    width: 24px;
+}
+
+.tablet-hidden {
+    display: none;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width:768px) {
+    .tablet-hidden {
+        display: inline-block;
+    }
+
+    .hamburguesa {
+        display: none;
+    }
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h2{
+  color: #e8e9e9;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+form{
+  padding: 50px;
+  width: 1000px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+input{
+  background-color: #e8e9e9;
+  padding: 17px 14px;
+  font-size: 15px;
+  color: #e8e9e9;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+label{
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #e8e9e9;
+  margin-bottom: 10px;
+}
+
+button{
+  cursor: pointer;
+  width: 150px;
+  background-color: rgba(0, 0, 0.2);
+}
