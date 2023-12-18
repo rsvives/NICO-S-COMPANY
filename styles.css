@@ -100,6 +100,10 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
 }
+article img{
+    width: 447px;
+    height: 559px;
+}
 form{
     background: url(./IMG/cielo-azul-nubes-blancas-fondo-vertical_483040-152.webp);
     display: flex;
