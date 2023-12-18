@@ -133,6 +133,23 @@ input,textarea{
     cursor: pointer;
     color: black;
 }
+footer{
+    background-color: antiquewhite;
+    height: 200px;
+}
+.rows{
+    display: flex;
+    justify-content: space-around;
+}
+.social-links{
+    display: flex;
+}
+.social-links li{
+    list-style: none;
+}
+.rows img{
+    width: 64px;
+}
 @media (min-width:768px) {
     .tablet-hidden {
         display: inline-block;
