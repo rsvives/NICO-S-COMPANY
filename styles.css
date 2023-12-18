@@ -139,7 +139,7 @@ input,textarea{
     }
 }
 @media (max-width:768px){
-     form{
+    form{
         width: 100%;
     }
 }
