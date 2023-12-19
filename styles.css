@@ -53,19 +53,6 @@ a {
     font-weight: 600;
 }
 
-.button-primary {
-    color: #e8e9e9;
-    background-color: rgb(0, 0, 0.2);
-    border: 2px solid rgb(0, 0, 0.2);
-
-}
-
-.button-primary-outline {
-    color: rgb(0, 0, 0.2);
-    background-color: transparent;
-    border: 2px solid rgb(0, 0, 0.2);
-}
-
 .derecha {
     display: flex;
     align-items: center;
@@ -81,10 +68,6 @@ a {
 
 .hamburguesa img {
     width: 24px;
-}
-
-.tablet-hidden {
-    display: none;
 }
 
 .header {/*  para un max-width: 800px; */
@@ -116,6 +99,7 @@ main{
 article img{
     width: 447px;
     height: 559px;
+    object-fit: cover;
 }
 
 /* article img:hover{
@@ -195,16 +179,6 @@ footer ul{
 
 .rows img{
     width: 64px;
-}
-
-@media (min-width:768px) {
-    .tablet-hidden {
-        display: inline-block;
-    }
-
-    .hamburguesa {
-        display: none;
-    }
 }
 
 @media (max-width:768px){
