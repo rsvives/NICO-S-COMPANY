@@ -53,10 +53,8 @@ a {
     font-weight: 600;
 }
 
-.derecha {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+.derecha{
+    text-align: left;
 }
 
 .hamburguesa {
@@ -194,17 +192,14 @@ footer ul{
 .menu {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
-.izquierda {
-    display: flex;
-    flex-direction: column;
-}
+
 .menu nav ul {
     flex-direction: column;
+    text-align: justify;
 }
-.derecha {
-    flex-direction: column;
-}
+
 .hamburguesa {
     display: block;
 }
@@ -221,10 +216,12 @@ form{
 
 .tienda, .social{
     flex-direction: column;
+    text-align: justify;
 }
 
 .social ul{
     flex-direction: column;
+    text-align: justify;
 }
 
 }
