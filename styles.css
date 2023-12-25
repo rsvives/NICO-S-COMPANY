@@ -92,9 +92,11 @@ main{
 .articles{
     display: flex;
     flex-wrap: wrap;
+    place-self: center;
 }
 
 .articles article{
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +110,8 @@ article img{
 article{
     width: 447px;
     height: 559px;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
 }
 article img{
@@ -123,12 +126,8 @@ article img{
     transition: all 0.7s ease;
 }
 .back:hover{
-    opacity: 1;
+    opacity: 3;
 }
-
-/* article img:hover{
-    transform:rotate(360deg) ;
-} */
 
 form{
     display: flex;
@@ -153,7 +152,7 @@ input,textarea{
     border: 0;
     margin-bottom: 20px;
     border-radius: 10px;
-    color: #e8e9e9;
+    color: #000000;
 }
 
 .btn{
