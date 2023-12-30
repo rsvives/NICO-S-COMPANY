@@ -102,7 +102,7 @@ main{
     align-items: center;
 }
 
-article img loading="lazy"{
+article img{
     width: 447px;
     height: 559px;
     object-fit: cover;
