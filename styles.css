@@ -70,7 +70,7 @@ a {
 .responsive-visible{
         display: none;
     }
-.hamburguesa img loading="lazy" {
+.hamburguesa img {
     width: 24px;
 }
 
@@ -114,7 +114,7 @@ article{
     margin-bottom: 50px;
     position: relative;
 }
-article img loading="lazy"{
+article img{
     width: 100%;
     height: 100%;
 }
@@ -202,7 +202,7 @@ footer ul{
     gap: 10px;
 }
 
-.rows img loading="lazy"{
+.rows img{
     width: 64px;
 }
 
@@ -222,13 +222,16 @@ footer ul{
 .hamburguesa {
     display: block;
 }
-article img loading="lazy"{
+
+article img{
     width: 100%;
     height: 100%;
 }
+
 form{
     width: 100%;
 }
+
 .rows{
     flex-direction: column;
 }
