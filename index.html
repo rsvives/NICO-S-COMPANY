@@ -10,90 +10,97 @@
 </head>
 
 <body>
-    <div class="menu">
-        <div class="izquierda">
-            <a href="./index.html">
-                <figure><img class="logo" src="./IMG/logo.png" alt="el-logo-de-mi-pagina"></figure>
-            </a>
-            <nav class="responsive-hidden">
-                <ul>
-                    <li><a href="stone-island.html">stone island</a></li>
-                    <li><a href="stussy.html">stussy</a></li>
-                    <li><a href="emme-studios.html">emme studios</a></li>
-                    <li><a href="nude-project.html">nude project </a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="derecha">
-            <a href="contacto.html">contacto</a>
-            <a href="login.html">iniciar sesion</a>
-        </div>
+    <header class="menu">
+
+        <a href="./index.html">
+            <img class="logo" src="./IMG/logo-nico.svg" alt="el-logo-de-mi-pagina">
+        </a>
+        <nav class="responsive-hidden">
+            <ul>
+                <li><a href="stone-island.html">stone island</a></li>
+                <li><a href="stussy.html">stussy</a></li>
+                <li><a href="emme-studios.html">emme studios</a></li>
+                <li><a href="nude-project.html">nude project </a></li>
+
+                <li class="derecha"><a href="contacto.html">contacto</a></li>
+                <li><a href="login.html">iniciar sesion</a></li>
+            </ul>
+        </nav>
+
         <div class="hamburguesa">
-            <img loading="lazy" src="./img/burger.avif" alt="menu-responsive">
+            <img src="./img/burger.svg" alt="menu-responsive">
         </div>
-    </div>
-    <div class="header">
-        <figure><img loading="lazy" src="./IMG/Colas.avif" alt="colas"></figure>
-    </div>
+    </header>
+
     <main>
-        <h2>NOVEDADES</h2>
-        <div class="articles">
-            <article>
-                <figure><img loading="lazy" src="./IMG/nude-project/camiseta-blanca/frontside.avif"
-                        alt="camiseta-blanca" class="front">
-                </figure>
-                <figure><img loading="lazy" src="./IMG/nude-project/camiseta-blanca/backside.avif" alt="camiseta-blanca"
-                        class="back">
-                </figure>
-                <h3 class="price">45,00 €</h3>
-            </article>
-            <article>
-                <figure><img loading="lazy" src="./IMG/nude-project/camiseta-marron/frontside.png" alt="camiseta-marron"
-                        class="front">
-                </figure>
-                <figure><img loading="lazy" src="./IMG/nude-project/camiseta-marron/backside.avif" alt="camiseta-marron"
-                        class="back">
-                </figure>
-                <h3 class="price">39,00 €</h3>
-            </article>
-            <article>
-                <figure><img loading="lazy" src="./IMG/nude-project/chaqueta-azul-de-plumon/frontside.avif"
-                        class="front" alt="chaqueta-azul-de-plumon">
-                </figure>
-                <figure><img loading="lazy" src="./IMG/nude-project/chaqueta-azul-de-plumon/backside.avif" class="back"
-                        alt="chaqueta-azul-de-plumon"></figure>
-                <h3 class="price">199,00 €</h3>
-            </article>
-            <article>
-                <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-marron/frontside.avif" class="front"
-                        alt="chaqueta-azul-de-plumon">
-                </figure>
-                <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-marron/backside.png" class="back"
-                        alt="chaqueta-azul-de-plumon"></figure>
-                <h3 class="price">199,00 €</h3>
-            </article>
-            <article>
-                <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-naranja/frontside.avif" class="front"
-                        alt="chaqueta-azul-de-plumon">
-                </figure>
-                <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-naranja/backside.png" class="back"
-                        alt="chaqueta-azul-de-plumon"></figure>
-                <h3 class="price">199,00 €</h3>
-            </article>
-            <article>
-                <figure><img loading="lazy" src="./IMG/Stussy/chaqueta-morada-con-pelo/frontside.png" class="front"
-                        alt="chaqueta-azul-de-plumon">
-                </figure>
-                <figure><img loading="lazy" src="./IMG/Stussy/chaqueta-morada-con-pelo/backside.avif" class="back"
-                        alt="chaqueta-azul-de-plumon"></figure>
-                <h3 class="price">199,00 €</h3>
-            </article>
-        </div>
+
+        <section id="hero">
+            <img src="./IMG/Colas.avif" alt="colas">
+        </section>
+
+        <section id="novedades">
+            <h2>NOVEDADES</h2>
+            <div class="articles">
+                <article>
+                    <figure><img loading="lazy" src="./IMG/nude-project/camiseta-blanca/frontside.avif"
+                            alt="camiseta-blanca" class="front">
+                    </figure>
+                    <figure><img loading="lazy" src="./IMG/nude-project/camiseta-blanca/backside.avif"
+                            alt="camiseta-blanca" class="back">
+                    </figure>
+                    <h3 class="price">45,00 €</h3>
+                </article>
+                <article>
+                    <figure><img loading="lazy" src="./IMG/nude-project/camiseta-marron/frontside.png"
+                            alt="camiseta-marron" class="front">
+                    </figure>
+                    <figure><img loading="lazy" src="./IMG/nude-project/camiseta-marron/backside.avif"
+                            alt="camiseta-marron" class="back">
+                    </figure>
+                    <h3 class="price">39,00 €</h3>
+                </article>
+                <article>
+                    <figure><img loading="lazy" src="./IMG/nude-project/chaqueta-azul-de-plumon/frontside.avif"
+                            class="front" alt="chaqueta-azul-de-plumon">
+                    </figure>
+                    <figure><img loading="lazy" src="./IMG/nude-project/chaqueta-azul-de-plumon/backside.avif"
+                            class="back" alt="chaqueta-azul-de-plumon"></figure>
+                    <h3 class="price">199,00 €</h3>
+                </article>
+                <article>
+                    <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-marron/frontside.avif" class="front"
+                            alt="chaqueta-azul-de-plumon">
+                    </figure>
+                    <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-marron/backside.png" class="back"
+                            alt="chaqueta-azul-de-plumon"></figure>
+                    <h3 class="price">199,00 €</h3>
+                </article>
+                <article>
+                    <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-naranja/frontside.avif" class="front"
+                            alt="chaqueta-azul-de-plumon">
+                    </figure>
+                    <figure><img loading="lazy" src="./IMG/Stone-Island/sudadera-naranja/backside.png" class="back"
+                            alt="chaqueta-azul-de-plumon"></figure>
+                    <h3 class="price">199,00 €</h3>
+                </article>
+                <article>
+                    <figure><img loading="lazy" src="./IMG/Stussy/chaqueta-morada-con-pelo/frontside.png" class="front"
+                            alt="chaqueta-azul-de-plumon">
+                    </figure>
+                    <figure><img loading="lazy" src="./IMG/Stussy/chaqueta-morada-con-pelo/backside.avif" class="back"
+                            alt="chaqueta-azul-de-plumon"></figure>
+                    <h3 class="price">199,00 €</h3>
+                </article>
+            </div>
+
+        </section>
+
     </main>
+
     <footer>
         <div class="rows">
             <div class="tienda">
-                <h1 class="title">Tienda</h1>
+                <h3 class="title">Tienda</h3>
                 <ul>
                     <li><a href="./stone-island.html">stone island</a></li>
                     <li><a href="./nude-project.html">nude project</a></li>
@@ -102,37 +109,37 @@
                 </ul>
             </div>
             <div class="logo">
-                <figure>
-                    <a href="index.html"><img loading="lazy" src="/IMG/logo.png" alt="logo-mi-pagina" class="logo"></a>
-                </figure>
+
+                <a href="index.html"><img loading="lazy" src="/IMG/logo-nico.svg" alt="logo-mi-pagina" class="logo"></a>
+
             </div>
             <div class="social">
-                <h1 class="title">Siguenos</h1>
+                <h3 class="title">Siguenos</h3>
                 <ul>
                     <li>
-                        <figure>
-                            <a href="https://www.linkedin.com/in/nicolas-sanmarcos/" target="_blank"><img loading="lazy"
-                                    src="./IMG/LogoLinkedin.svg" alt="logo-de-linkedin" class="linkedin"></a>
-                        </figure>
+
+                        <a href="https://www.linkedin.com/in/nicolas-sanmarcos/" target="_blank"><img loading="lazy"
+                                src="./IMG/LogoLinkedin.svg" alt="logo-de-linkedin" class="linkedin"></a>
+
                     </li>
                     <li>
-                        <figure>
-                            <a href="https://discord.gg/ubPmysmT" target="_blank"><img loading="lazy"
-                                    src="./IMG/discord.svg" alt="logo-de-discord" class="discord"> </a>
-                        </figure>
+
+                        <a href="https://discord.gg/ubPmysmT" target="_blank"><img loading="lazy"
+                                src="./IMG/discord.svg" alt="logo-de-discord" class="discord"> </a>
+
                     </li>
                     <li>
-                        <figure>
-                            <a href="https://github.com/N1C0SM" target="_blank"><img loading="lazy"
-                                    src="./IMG/gitHub.svg" alt="logo-de-gitHub" class="github"></a>
-                        </figure>
+
+                        <a href="https://github.com/N1C0SM" target="_blank"><img loading="lazy" src="./IMG/gitHub.svg"
+                                alt="logo-de-gitHub" class="github"></a>
+
                     </li>
                     <li>
-                        <figure>
-                            <a href="https://www.instagram.com/nico.sanmarcos?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr "
-                                target="_blank"><img loading="lazy" src="./IMG/instagram.svg" alt="logo-de-instagram"
-                                    class="instagram"></a>
-                        </figure>
+
+                        <a href="https://www.instagram.com/nico.sanmarcos?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr "
+                            target="_blank"><img loading="lazy" src="./IMG/instagram.svg" alt="logo-de-instagram"
+                                class="instagram"></a>
+
                     </li>
                 </ul>
             </div>
