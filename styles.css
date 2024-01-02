@@ -84,8 +84,33 @@ a {
     width: 24px;
 }
 
-#hero img {
-    width: 100%;
+#hero {
+    background: url('./IMG/Colas.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100vh;
+    /* object-fit: contain; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .tarjeta {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    height: fit-content;
+    background-color: #FFFFFFAA;
+
+    /* position: absolute;
+    bottom: 24px;
+    left: 24px; */
+}
+
+#hero h1 {
+    font-size: 64px;
 }
 
 main {
